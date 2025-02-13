@@ -9,7 +9,7 @@
       </description>
     </key>
     <key type="s" name="icon-theme-name">
-      <default>'deepin'</default>
+      <default>'bloom'</default>
       <summary>Icon theme</summary>
       <description>
         Icon theme to use for the panel, nautilus etc.
@@ -384,6 +384,11 @@
     <key type="s" name="qt-active-color">
       <default>'0,33153,65535,65535'</default>
       <summary></summary>
+      <description></description>
+    </key>
+    <key type="s" name="qt-dark-active-color">
+      <default>'0,33153,65535,65535'</default>
+      <summary>active color in dark theme</summary>
       <description></description>
     </key>
     <key type="i" name="qt-scrollbar-policy">
