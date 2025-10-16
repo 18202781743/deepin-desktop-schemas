@@ -1,3 +1,74 @@
+deepin-desktop-schemas (6.0.13) unstable; urgency=medium
+
+  * chore: add override for gtk window button-layout on treeland
+
+ -- zhangkun <zhangkun2@uniontech.com>  Thu, 16 Oct 2025 21:10:11 +0800
+
+deepin-desktop-schemas (6.0.12) unstable; urgency=medium
+
+  * fix: change default value for bluetooth display switch
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Thu, 31 Jul 2025 19:42:57 +0800
+
+deepin-desktop-schemas (6.0.11) unstable; urgency=medium
+
+  * feat: remove AI assistant keybindings from system schema
+  * fix(debian): remove useless dependencies
+  * fix(debian): homepage metadata
+
+ -- fuleyi <fuleyi@uniontech.com>  Wed, 04 Jun 2025 15:41:11 +0800
+
+deepin-desktop-schemas (6.0.10) unstable; urgency=medium
+
+  * feat: 触控板自然滚动功能默认开启
+
+ -- fuleyi <fuleyi@uniontech.com>  Fri, 28 Mar 2025 10:51:05 +0800
+
+deepin-desktop-schemas (6.0.9) unstable; urgency=medium
+
+  * feat: 触控板自然滚动功能默认开启
+
+ -- fuleyi <fuleyi@uniontech.com>  Fri, 14 Mar 2025 21:36:25 +0800
+
+deepin-desktop-schemas (6.0.8) unstable; urgency=medium
+
+  * fix: 解决切换多屏快捷键不生效的问题
+
+ -- fuleyi <fuleyi@uniontech.com>  Thu, 13 Feb 2025 15:21:14 +0800
+
+deepin-desktop-schemas (6.0.7) unstable; urgency=medium
+
+  * chore: add the qt-active-color-dark setting
+  * chore: rename "qt-active-color-dark" to "qt-dark-active-color"
+
+ -- xionglinlin <xionglinlin@uniontech.com>  Wed, 13 Nov 2024 15:08:14 +0800
+
+deepin-desktop-schemas (6.0.6) unstable; urgency=medium
+
+  * fix #7670
+
+ -- Mike Chen <chenke@deepin.org>  Tue, 16 Apr 2024 08:42:08 +0800
+
+deepin-desktop-schemas (6.0.5) unstable; urgency=medium
+
+  * fix have not handle template key
+
+ -- chenhongtao <chenhongtao@deepin.org>  Fri, 11 Aug 2023 16:21:00 +0800
+
+deepin-desktop-schemas (6.0.4) unstable; urgency=medium
+
+  * Sort the keys to ensure the target is repreducable
+
+ -- chenhongtao <chenhongtao@deepin.org>  Tue, 8 Aug 2023 11:21:00 +0800
+
+deepin-desktop-schemas (6.0.3) unstable; urgency=medium
+
+  * Ensure REUSE compliance
+  * Add go mod support
+  * Change shortcut to open dde-clipboard to Meta+V
+
+ -- Wang Zichong <wangzichong@deepin.org>  Wed, 5 Jul 2023 11:02:00 +0800
+
 deepin-desktop-schemas (6.0.2) unstable; urgency=medium
 
   [ TagBuilder ]

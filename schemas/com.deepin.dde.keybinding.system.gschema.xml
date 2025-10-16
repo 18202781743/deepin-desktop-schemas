@@ -6,6 +6,11 @@
 			<summary>Show or hide dde-launcher</summary>
 			<description></description>
 		</key>
+		<key type="as" name="switch-monitors">
+			<default><![CDATA[['<Super>P']]]></default>
+			<summary>allow switch monitors display mode</summary>
+			<description></description>
+		</key>
 		<key type="as" name="terminal">
 			<default><![CDATA[['<Control><Alt>T']]]></default>
 			<summary>Launch default terminal emulator</summary>
@@ -76,11 +81,6 @@
 			<summary>Turn off the screen</summary>
 			<description/>
 		</key>
-		<key type="as" name="ai-assistant">
-			<default><![CDATA[['<Super>Q']]]></default>
-			<summary>Desktop AI Assistant</summary>
-			<description/>
-		</key>
 		<key type="as" name="text-to-speech">
 			<default><![CDATA[['<Control><Alt>P']]]></default>
 			<summary>Text to speech</summary>
@@ -92,7 +92,7 @@
 			<description/>
 		</key>
 		<key type="as" name="clipboard">
-			<default><![CDATA[['<Control><Alt>V']]]></default>
+			<default><![CDATA[['<Super>V','<Meta>V']]]></default>
 			<summary>Show clipboard</summary>
 			<description/>
 		</key>
@@ -229,11 +229,6 @@
 		<key type="b" name="terminal-quake">
 			<default>true</default>
 			<summary>enabled/disable terminal-quake</summary>
-			<description></description>
-		</key>
-		<key type="b" name="ai-assistant">
-			<default>true</default>
-			<summary>enabled/disable ai-assistant</summary>
 			<description></description>
 		</key>
 		<key type="b" name="wm-switcher">
